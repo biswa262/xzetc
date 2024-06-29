@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="xzetc.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    <script src="xzetc.js"></script>
+  </head>
+  <body>
+    <nav class="navbar bg-purple-600 text-white fixed top-0 left-0 right-0 z-50 p-4 flex items-center justify-between">
+      <div class="logo text-2xl font-bold">Naxos</div>
+      <div class="spacer flex-grow"></div>
+      <input type="checkbox" id="menu-toggle" class="hidden">
+      <label for="menu-toggle" class="hamburger text-2xl cursor-pointer md:hidden">☰</label>
+      <div class="mobile-menu hidden absolute top-16 right-4 bg-gray-800 rounded shadow-md">
+        <a href="#" class="block px-4 py-2 text-white no-underline hover:bg-gray-700">Home</a>
+        <a href="#" class="block px-4 py-2 text-white no-underline hover:bg-gray-700">Home</a>
+        <a href="#" class="block px-4 py-2 text-white no-underline hover:bg-gray-700">Home</a>
+        <a href="#" class="block px-4 py-2 text-white no-underline hover:bg-gray-700">Home</a>
+        <a href="#" class="block px-4 py-2 text-white no-underline hover:bg-gray-700">Home</a>
+        </div>
+      <div class="menu hidden md:flex items-center text-base font-medium ">
+        <a href="#" class="text-white no-underline hover:underline mx-4">Home</a>
+        <a href="#" class="text-white no-underline hover:underline mx-4">Home</a>
+        <a href="#" class="text-white no-underline hover:underline mx-4">Home</a>
+        <a href="#" class="text-white no-underline hover:underline mx-4">Home</a>
+        <a href="#" class="text-white no-underline hover:underline mx-4">Home</a>
+      </div>
+    </nav>
+    <div class="container flex justify-around bg-purple-600 md:justify-between">
+      <div class="app-details w-4/12 ml-48 mt-40">
+        <h1 class="text-5xl font-bold text-white leading-tight mb-4 ml-4">
+          Showcase your <br />
+          App in one place
+        </h1>
+        <p class="headDetail text-xl text-white mb-4 ml-4">
+          Duis facilisis sem sed metus malesuada rhoncus. Nulla tincidunt
+          tincidunt lectus at lacinia. Pellentesque ullamcorper arcu id rutrum
+          volutpat. Donec suscipit auctor enim vel dignissim.
+        </p>
+        <div class="container2 flex">
+          <div class="paragraph p-4">
+            <p class="plat text-gray-400">Available on</p>
+            <p class="download text-2xl">Play Store</p>
+          </div>
+          <div class="paragraph p-4">
+            <p class="plat text-gray-400">Download on</p>
+            <p class="download text-2xl">App Store</p>
+          </div>
+        </div>
+      </div>
+      <img src="naxos.png" alt="App Interface" class="w-3/12 ml-auto mr-8 mt-20" />
+    </div>
+
+    <div class="flex justify-start items-center mt-5 space-x-4 overflow-hidden  space-x-32 text-2xl font-bold">
+      <div class="animate-moveLeftRight">Company A</div>
+      <div class="animate-moveLeftRight">Company B</div>
+      <div class="animate-moveLeftRight">Company A1</div>
+      <div class="animate-moveLeftRight">Company B1</div>
+      <div class="animate-moveLeftRight">Company A2</div>
+      <div class="animate-moveLeftRight">Company B2</div>
+    </div>
+    <div class="bg-white p-6 rounded-md mt-8 mb-16 text-center">
+      <h2 class="text-3xl font-bold text-black mb-4">Awesome Features</h2>
+      <p class="text-gray-500 text-lg mb-2">
+        Sed laoreet diam sagittis tempus convallis. Interdum et malesuada fames <br />
+        ac ante ipsum primis in faucibus.
+      </p>
+    </div>
+    <div class="grid grid-cols-3 gap-4 ">
+      <div>
+        <div class="flex flex-col p-4 mb-14">
+        <div class="flex flex-row items-center mb-4">
+          <i class="fa-solid fa-gear text-black mr-2"></i>
+          <p class="text-3xl font-bold">Custom shortcuts</p>
+        </div>
+        <p class="text-gray-500 text-base leading-loose">Semper a augue suscipit, luctus neque purus ipsum neque dolor primis libero tempus velna culpa expedita.</p>
+      </div>
+
+      <div class="flex flex-col p-4 mb-14">
+        <div class="flex flex-row items-center mb-4">
+          <i class="fa-solid fa-lock text-black mr-2"></i>
+          <p class="text-3xl font-bold">Secure Integration</p>
+        </div>
+        <p class="text-gray-500 text-base leading-loose">Semper a augue suscipit, luctus neque purus ipsum neque dolor primis libero tempus velna culpa expedita.</p>
+      </div>
+
+      <div class="flex flex-col p-4">
+        <div class="flex flex-row items-center mb-4">
+          <i class="fa-solid fa-message text-black mr-2"></i>
+          <p class="text-3xl font-bold">Free Live chat</p>
+        </div>
+        <p class="text-gray-500 text-base leading-loose">Semper a augue suscipit, luctus neque purus ipsum neque dolor primis libero tempus velna culpa expedita.</p>
+      </div>
+    </div>
+      <div> <div class="flex justify-center mt-8 mb-10">
+        <img src="nexos awesome.png" alt="app interface" class="w-full max-w-md" />
+      </div>
+    </div>
+
+      <div>
+        <div class="flex flex-col p-4 mb-14">
+        <div class="flex flex-row items-center mb-4">
+          <i class="fa-solid fa-gear text-black mr-2"></i>
+          <p class="text-3xl font-bold">Custom shortcuts</p>
+        </div>
+        <p class="text-gray-500 text-base leading-loose">Semper a augue suscipit, luctus neque purus ipsum neque dolor primis libero tempus velna culpa expedita.</p>
+      </div>
+
+      <div class="flex flex-col p-4 mb-14">
+        <div class="flex flex-row items-center mb-4">
+          <i class="fa-solid fa-lock text-black mr-2"></i>
+          <p class="text-3xl font-bold">Secure Integration</p>
+        </div>
+        <p class="text-gray-500 text-base leading-loose">Semper a augue suscipit, luctus neque purus ipsum neque dolor primis libero tempus velna culpa expedita.</p>
+      </div>
+      
+      <div class="flex flex-col p-4 ">
+        <div class="flex flex-row items-center mb-4">
+          <i class="fa-solid fa-message text-black mr-2"></i>
+          <p class="text-3xl font-bold">Free Live chat</p>
+        </div>
+        <p class="text-gray-500 text-base leading-loose">Semper a augue suscipit, luctus neque purus ipsum neque dolor primis libero tempus velna culpa expedita.</p>
+      </div>
+    </div>
+    </div>
+
+    <div id="video-container" class="w-full h-72 bg-gray-500 flex justify-center items-center">
+      <a href="https://www.youtube.com/watch?v=4JFHZKfoldw" target="video-popup" id="play-button" class="px-5 py-3 rounded cursor-pointer bg-purple-700 text-black font-semibold">Play Video</a>
+    </div>
+    <div class="works p-4 mt-4 rounded-md text-center mb-8">
+      <p class="head text-5xl font-bold mb-4">How It Works?</p>
+      <p class="para mb-2 text-gray-500 text-lg">
+        Sed laoreet diam sagittis tempus convallis. Interdum et malesuada fames
+        ac <br />
+        ante ipsum primis in faucibus.
+      </p>
+    </div>
+    <div class="workCard">
+      <div>
+        <i class="fa-solid fa-database"></i>
+        <p class="card-details">Your Data In Cloud</p>
+        <p class="card-details-item">
+          Lorem ipsum dolor sit amet, conseda adipiscing elit. Aenean commodo
+          ligula eget dolor massa.
+        </p>
+      </div>
+      <div>
+        <i class="fa-solid fa-phone-flip"></i>
+        <p class="card-details">24/7 Support</p>
+        <p class="card-details-item">
+          Lorem ipsum dolor sit amet, conseda adipiscing elit. Aenean commodo
+          ligula eget dolor massa.
+        </p>
+      </div>
+      <div>
+        <i class="fa-solid fa-pen-nib"></i>
+        <p class="card-details">Exclusive design</p>
+        <p class="card-details-item">
+          Lorem ipsum dolor sit amet, conseda adipiscing elit. Aenean commodo
+          ligula eget dolor massa.
+        </p>
+      </div>
+    </div>
+    <div class="track">
+      <div class="track-img">
+        <img src="tracknaxos.png" alt="Track" />
+      </div>
+      <div class="track-details">
+        <p class="track-heading">Track Time From Anywhere</p>
+        <p class="track-heading-details">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor.
+        </p>
+        <div class="track-cards-container">
+          <div class="track-card">
+            <i class="fa-solid fa-compass"></i>
+            <div class="track-card-in">
+              <p class="track-card-details">Easy To Use</p>
+              <p class="track-card-details-item">
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur
+              </p>
+            </div>
+          </div>
+          <div class="track-card">
+            <i class="fa-solid fa-life-ring"></i>
+            <div class="track-card-in">
+              <p class="track-card-details">Monitor & Manage</p>
+              <p class="track-card-details-item">
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur
+              </p>
+            </div>
+          </div>
+          <div class="track-card">
+            <i class="fa-solid fa-link"></i>
+            <div class="track-card-in">
+              <p class="track-card-details">Stay Connected</p>
+              <p class="track-card-details-item">
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="schedule">
+      <div class="schedule_text">
+        <p class="track-heading">Built For Your Daily Schedule</p>
+        <p class="track-heading-details">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor.
+        </p>
+        <ul class="track-heading-details-points">
+          <li>
+            Ut fringilla est at nunc suscipit dictum. Nulla facilisi. Phasellus
+            dignissim nibh eget imperdiet venenatis.
+          </li>
+          <li>
+            Nullam egestas tincidunt lectus, sagittis eros vestibulum in.
+            Vestibulum finibus iaculis sagittis. Suspendisse viverra luctus.
+          </li>
+          <li>
+            Suspendisse at volutpat magna, vitae mattis metus. Integer posuere
+            eu erat at pharetra. Aliquam ut pharetra diam.
+          </li>
+          <li>
+            Donec luctus, sem vel molestie efficitur, metus libero mollis neque,
+            sed scelerisque arcu nisl eu lectus.
+          </li>
+          <li>
+            Fusce neque magna, fringilla ac vulputate at, venenatis a eros.
+            Donec accumsan commodo tortor sed fringilla.
+          </li>
+        </ul>
+        <button class="learn" type="button">Learn More</button>
+      </div>
+      <div class="schedule_part">
+        <img src="schedulenaxos.png" alt="schedule_phone" />
+      </div>
+    </div>
+    <div class="client">
+      <p class="head">Client Reviews</p>
+      <p class="para">
+        Donec purus est, tincidunt eu sodales quis, vehicula quis enim. <br />
+        Morbi dapibus, tellus a gravida faucibus, elit ipsum.
+      </p>
+    </div>
+    <div class="review">
+      <div class="review-person">
+        <i class="fa-solid fa-user"></i>
+        <div class="review-text">"This product is amazing!" -Tun</div>
+      </div>
+      <div class="review-person">
+        <i class="fa-solid fa-user"></i>
+        <div class="review-text">"Highly recommended!" -Radha</div>
+      </div>
+      <div class="review-person">
+        <i class="fa-solid fa-user"></i>
+        <div class="review-text">"Great value for money." -Usha</div>
+      </div>
+      <div class="review-person">
+        <i class="fa-solid fa-user"></i>
+        <div class="review-text">"Easy to use and set up." -Om</div>
+      </div>
+      <div class="review-person">
+        <i class="fa-solid fa-user"></i>
+        <div class="review-text">"Exceeded my expectations." -Raj</div>
+      </div>
+      <div class="review-person">
+        <i class="fa-solid fa-user"></i>
+        <div class="review-text">"I'm very satisfied." -Kak</div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="icon-container">
+        <i class="fa-solid fa-download"></i>
+        <span class="icon-description">2067</span>
+        <span class="icon-des">Total Download</span>
+      </div>
+      <div class="icon-container">
+        <i class="fa-solid fa-lock"></i>
+        <span class="icon-description">982</span>
+        <span class="icon-des">Happy Clients</span>
+      </div>
+      <div class="icon-container">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <span class="icon-description">890</span>
+        <span class="icon-des">Active Users</span>
+      </div>
+      <div class="icon-container">
+        <i class="fa-regular fa-star"></i>
+        <span class="icon-description">537</span>
+        <span class="icon-des">App Rates</span>
+      </div>
+    </div>
+    <div class="team">
+      <p class="head">Our Team</p>
+      <p class="para">
+        Donec purus est, tincidunt eu sodales quis, vehicula quis enim. <br />
+        Morbi dapibus, tellus a gravida faucibus, elit ipsum.
+      </p>
+    </div>
+    <div class="teammates">
+      <div class="card">
+        <img src="naxos p1.png" alt="p1" />
+        <div class="card-info">
+          <span class="p-name">Rachel</span>
+          <span class="p-name-desg">CEO</span>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-meta"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="naxos p2.png" alt="p2" />
+        <div class="card-info">
+          <span class="p-name">Ross</span>
+          <span class="p-name-desg">MD</span>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-meta"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="naxos p3.png" alt="p3" />
+        <div class="card-info">
+          <span class="p-name">Phoebe</span>
+          <span class="p-name-desg">Manager</span>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-meta"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="naxos p4.png" alt="p4" />
+        <div class="card-info">
+          <span class="p-name">Chandler</span>
+          <span class="p-name-desg">Sr. Developer</span>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-meta"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="app">
+      <p class="head">App Screenshots</p>
+      <p class="para">
+        Donec purus est, tincidunt eu sodales quis, vehicula quis enim. <br />
+        Morbi dapibus, tellus a gravida faucibus, elit ipsum.
+      </p>
+    </div>
+    <div class="appSs">
+      <div class="image-container">
+        <img src="ss1.jpg" alt="" />
+        <img src="ss2.jpg" alt="" />
+        <img src="ss3.jpg" alt="" />
+        <img src="ss4.jpg" alt="" />
+        <img src="ss5.jpg" alt="" />
+      </div>
+    </div>
+    <div class="faq">
+      <p class="head">Frequently Asked Questions</p>
+      <p class="para">
+        Donec purus est, tincidunt eu sodales quis, vehicula quis enim. <br />
+        Morbi dapibus, tellus a gravida faucibus, elit ipsum.
+      </p>
+    </div>
+    <div class="questions">
+      <details>
+        <summary><strong>How do I create an accordion?</strong></summary>
+        <div>
+          The tags <em>details</em> and <em>summary</em> have you covered.
+        </div>
+      </details>
+      <details>
+        <summary><strong>What is the meaning of life?</strong></summary>
+        <div>who knows?</div>
+      </details>
+      <details>
+        <summary><strong>What is the capital of France?</strong></summary>
+        <div>Paris.</div>
+      </details>
+      <details>
+        <summary>
+          <strong>What is the largest planet in our solar system?</strong>
+        </summary>
+        <div>Jupiter.</div>
+      </details>
+      <p class="still">
+        <a href="#"><i>Still have questions? click here</i></a>
+      </p>
+    </div>
+    <div class="newslet">
+      <div class="nl">
+        <p class="head">Subscribe To Newsletter</p>
+        <p class="para">
+          Donec purus est, tincidunt eu sodales quis, vehicula quis enim. <br />
+          Morbi dapibus, tellus a gravida faucibus, elit ipsum.
+        </p>
+        <form action="#">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="priv">
+          We don't share your personal information with anyone or company.
+          <br />
+          Check out our <a href="#">Privacy Policy</a> for more information.
+        </p>
+      </div>
+    </div>
+    <div class="blog">
+      <p class="head">Latest Blog Posts</p>
+      <p class="para">
+        Donec purus est, tincidunt eu sodales quis, vehicula quis enim. <br />
+        Morbi dapibus, tellus a gravida faucibus, elit ipsum.
+      </p>
+    </div>
+    <div class="blogCard">
+      <div class="card">
+        <img src="house.jpg" alt="Image 1" />
+        <div class="content">
+          <p>Alex June, Feb 2024</p>
+          <h3>Assorted Color Buildings and Sea in Riomaggiore</h3>
+          <p>
+            Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam
+            vitae, aliquet quis nibh.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="mountain.jpg" alt="Image 2" />
+        <div class="content">
+          <p>Maithili Ras, December 2023</p>
+          <h3>Aerial Photography of Snowy Mountain Ranges</h3>
+          <p>
+            Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam
+            vitae, aliquet quis nibh.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="road.jpg" alt="Image 3" />
+        <div class="content">
+          <p>Koufu Das, March 2024</p>
+          <h3>Forest Highway With Green Leaves</h3>
+          <p>
+            Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam
+            vitae, aliquet quis nibh.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="price">
+      <p class="head">Pricing Plans</p>
+      <p class="para">
+        Donec purus est, tincidunt eu sodales quis, vehicula quis enim. <br />
+        Morbi dapibus, tellus a gravida faucibus, elit ipsum.
+      </p>
+    </div>
+    <div class="pricing">
+      <div class="card">
+        <i class="fa-solid fa-layer-group"></i>
+        <h3>Basic</h3>
+        <p>$19/Month</p>
+        <p>2 user</p>
+        <p>Standard Support</p>
+        <p>15 GB storage</p>
+        <button type="button">Purchase</button>
+      </div>
+      <div class="card active">
+        <span class="ribbon">Popular</span>
+        <i class="fa-regular fa-heart"></i>
+        <h3>Pro</h3>
+        <p>$29/Month</p>
+        <p>4 user</p>
+        <p>30 GB storage</p>
+        <p>Priority Support</p>
+        <button type="button">Purchase</button>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-sun"></i>
+        <h3>Premium</h3>
+        <p>$39/Month</p>
+        <p>7 user</p>
+        <p>50 GB storage</p>
+        <p>Priority Support</p>
+        <button type="button">Purchase</button>
+      </div>
+    </div>
+    <div class="iphone">
+      <img src="iphone.png" alt="iphone" />
+    </div>
+    <div class="price">
+      <p class="head">Get In Touch</p>
+      <p class="para">
+        Donec purus est, tincidunt eu sodales quis, vehicula quis enim. <br />
+        Morbi dapibus, tellus a gravida faucibus, elit ipsum.
+      </p>
+    </div>
+    <div class="contact-section">
+      <div class="contact-info">
+        <h3>Office Location</h3>
+        <p>
+          123 Dorchester Street<br />Boston Massachusetts<br />02125 United
+          States
+        </p>
+        <h3>Phone Number</h3>
+        <p>+1 (617)572-3122</p>
+        <h3>Email Address</h3>
+        <p>email@domain.com</p>
+        <h3>Working Hours</h3>
+        <p>9AM TO 6PM EST</p>
+      </div>
+      <div class="form-container">
+        <form action="/submit-form" method="post">
+          <div style="display: flex; flex-wrap: wrap;">
+            <input type="text" id="name" name="name" placeholder="Name" style="width: 45%;" />
+            <input
+              type="email"
+              id="_replyto"
+              name="_replyto"
+              placeholder="Email"
+              style="width: 45%; margin-left: 10px;"
+            />
+          </div>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject"
+            style="width: 100%;"
+          /><br />
+          <textarea id="message" name="message" placeholder="Message"></textarea
+          ><br />
+          <button type="submit">Send Messages</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footCol">
+        <p class="logo">Naxos</p>
+        <p class="about">Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Suscipit quasi perspiciatis</p>
+        <i class="fa-brands fa-meta"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-square-youtube"></i>
+      </div>
+      <div class="footCol">
+        <div class="innerCol">
+          <p>Useful Links</p>
+          <p class="i-links">Support</p>
+          <p class="i-links">Privacy Policy</p>
+          <p class="i-links">Terms & Conditions</p>
+          <p class="i-links">Affiliat Program</p>
+          <p class="i-links">Careers</p>
+        </div>
+        <div class="innerCol">
+          <p>Product Help</p>
+          <p class="i-links">FaQ</p>
+          <p class="i-links">Reviews</p>
+          <p class="i-links">Features</p>
+          <p class="i-links">Feedback</p>
+          <p class="i-links">API</p>
+        </div>
+      </div>
+      <div class="footCol">
+        <p>Download</p>
+        <div class="paragraph">
+          <p class="plat">Available on</p>
+          <p class="download">Play Store</p>
+        </div>
+        <div class="paragraph">
+          <p class="plat">Download on</p>
+          <p class="download">App Store</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
